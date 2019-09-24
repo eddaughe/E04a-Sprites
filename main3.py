@@ -22,8 +22,8 @@ class MyGame(arcade.Window):
 
     def setup(self):
         self.animal_sprite = arcade.Sprite("assets/moose.png", 0.5)
-        self.animal_sprite.center_x = 400
-        self.animal_sprite.center_y = 300
+        self.animal_sprite.center_x = 300
+        self.animal_sprite.center_y = 400
         self.animal_list.append(self.animal_sprite)
         
 
